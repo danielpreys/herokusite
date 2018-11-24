@@ -8,7 +8,7 @@ body, html {
     background-image: url('photos/dmtn.jpg');
 
     /* Set a specific height */
-    height: 80%;
+    height: 100%;
 
     /* Position and center the image to scale nicely on all screens */
     background-attachment: fixed;
