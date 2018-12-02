@@ -24,7 +24,7 @@ body, html {
 }
 
 .port {
-	background: linear-gradient(#e6f7ff, #e6f7ff, #4dc6ff);;
+	background: linear-gradient(#e6f7ff, #e6f7ff, #4dc6ff);
 }
 
 .expertise {
@@ -88,6 +88,12 @@ img {
 	color: white;
 	
 }
+
+.social-img:hover {
+	background-color: #4dc6ff;
+}
+
+
 
 .footer-list {
 	text-align: center;
