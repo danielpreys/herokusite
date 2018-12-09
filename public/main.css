@@ -29,6 +29,10 @@ body, html {
     }
 }
 
+#portfolio {
+	padding-top: 50px;
+}
+
 
 
 .side-text {
@@ -45,6 +49,10 @@ body, html {
 	text-align: center;
 
 }	
+
+#contact {
+	padding-top: 50px;
+}
 
 .headz {
 	text-align: center;

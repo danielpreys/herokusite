@@ -56,4 +56,7 @@ $(".insta-thmb").on ("click", function(){
 }
 openWork();
 
+
+
+
 });
