@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-var picone = "https://codepen.io/DPreys/pen/ybmYVV";
+var picone = "https://quiet-sea-75996.herokuapp.com/";
 var pictwo = "https://codepen.io/DPreys/pen/oeQdoE";
 var picthree = "https://codepen.io/DPreys/pen/wrBqMY";
 var picfour = "https://codepen.io/DPreys/pen/qoPRaE";
-var picfive = "http://www.frshnup.com/";
+var picfive = "https://tododashboard.herokuapp.com/";
 var picsix = "http://easyfoodprep.com/"; 
 var instagram = "https://www.instagram.com/preys_dan/";
 var linkedin = "https://www.linkedin.com/in/danielpreys/";
@@ -14,7 +14,7 @@ var codepen = "https://codepen.io/DPreys/";
 
 function openWork (){
 
-$(".robin").on("click", function(){
+$(".book").on("click", function(){
 	window.open(picone);
 });
 
@@ -30,7 +30,7 @@ $(".calc").on ("click", function(){
 	window.open(picfour);
 });
 
-$(".beauty").on ("click", function(){
+$(".dash").on ("click", function(){
 	window.open(picfive);
 });
 $(".cook").on ("click", function(){

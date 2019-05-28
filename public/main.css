@@ -33,6 +33,10 @@ body, html {
 	padding-top: 50px;
 }
 
+.intro-text {
+	text-align: center;
+}
+
 
 
 .side-text {
@@ -88,15 +92,10 @@ body, html {
 
 img {
 	width: 362px;
-	height: 206px;
-	border-style: solid;
-	border-radius: 15px;
+	height: 206px;	
 
 }
 
-img:hover {
-	border-color: blue;
-}
 
 img:hover
 {
