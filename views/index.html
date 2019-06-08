@@ -18,7 +18,7 @@
 
 
   <link rel="stylesheet" type="text/css"  href="/main.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script defer src="https://kit.fontawesome.com/c3d4d7953c.js"></script>
 
   
 </head>
@@ -41,6 +41,12 @@
         <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
       <li class="nav-item active">
+        <a class="nav-link" href="#portfolio">Expertise and Resume</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item active">
         <a class="nav-link contact" href="#contact">Contact</a>
       </li>
       
@@ -48,31 +54,109 @@
   </div>
 </nav>  
 
-<div class="hero-image">  
+<div class="hero-image ">  
   
 
 </div> 
  
 
-<div class = "sticky">
-    <div class = "container-fluid">
+<div class = "sticky ">
+    <div class = "container">
       <div class = "expertise">
-      <h2>My Expertise</h2>
-      <p> I can help. Guaranteed.</p>
+      <h2>Professional Expertise</h2>
       </div>  
+
+    <div class = "row headz">
+      <div class = "col"><h2>Customer Service and Client Retention</h2><i class="far fa-handshake head-image fa-6x"></i> <p>Lorem Ipsum</p></div>
+
+      <div class = "col"><h2>Operations Management</h2>
+        <i class="fas fa-network-wired head-image fa-6x"></i><p>Lorem Ipsum</p></div>
+
+      <div class = "col"><h2>Workflow Design and Implementation</h2>
+        <i class="fas fa-network-wired head-image fa-6x"></i><p>Lorem Ipsum</p></div>
+
+      <div class = "col"><h2>Content Creation and Management</h2>
+        <i class="fas fa-laptop-medical fa-6x head-image"></i><p>Lorem Ipsum</p></div>
+    </div>
+
+    <div class = "resume expertise">
+      <h2>Resume </h2>
+      <p>A bit of what I've done and where I did it</p>
+    </div>
+
+    <div class = "row resume-sec">
+      <div class = col-md-3> 
+        <p>Maynard House<p>
+        <p>Director of Business Operations</p>
+        <p>2018 - Present <p>
+      </div>
+      <div class = col-md-9 >
+        <div class="vl vl1">
+          <ul>
+            <li>Volunteer Management, planning and community engagement</li>
+            <li>Development of Standard Operating Procedures</li>
+            <li>Lead of house operations</li>
+            <li>Primary web administrator and general content developer</li> 
+        </div>
+      
+      </div>
+
+      <div class = col-md-3> 
+        <p>Peninsula Parking<p>
+        <p>Operations Manager</p>
+        <p>2016 - 2018<p>
+      </div>
+      <div class = col-md-9 >
+        <div class="vl vl2">
+          <ul>
+            <li>Maintained site operations, built new account RFP and created implementation plans</li>
+            <li>Streamlined the hiring process workflow</li>
+  <li>Outlined and developed a reward based Learning Management Platform </li>
+</ul>
+
+        </div>
+      </div>
+
+      <div class = col-md-3> 
+        <p>iCracked<p>
+        <p>Redistribution Manager</p>
+        <p>2014 - 2015<p>
+
+      </div>
+      <div class = col-md-9 >
+        <div class="vl vl3">
+          <ul>
+            <li>Built and actualized the company’s first reverse logistics workflow</li>
+            <li>Development of vendor networks and sales pipelines</li>
+            <li>Established innovative programs to generate revenue</li>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class = "expertise">
+      <h2>Technical Expertise</h2>
+    </div>  
     <div class = "row headz">
 
-      <div class = "col"><i class="fas fa-code fa-8x head-image"></i><h2>Front End Development</h2> <p>I work with HTML, CSS and Javascript. I can constuct a simple static site or an entire application.</p></div>
+      <div class = "col"><i class="fas fa-code fa-6x head-image"></i><h3>Front End Development</h3> <p>My experience includes building with HTML, CSS and JS. I can constuct simple static sites or full applications.</p></div>
 
-      <div class = "col"><i class="fab fa-wordpress-simple fa-8x head-image"></i><h2>WordPress Design</h2><p>While setup can be tricky, getting a beautiful site up and running is simple with WordPress. Let me help you establish your web presence with the most popular Content Management System.</p></div>
-      <div class = "col"><i class="fas fa-desktop fa-8x head-image"></i><h2>Content Management</h2><p>Put me in charge of managing your content. You won't be disappointed!</p></div>
+      <div class = "col"><i class="fab fa-wordpress-simple fa-6x head-image"></i><h3>CMS Design</h3><p>While setup can be tricky, getting a beautiful site up and running is simple with WordPress. I'm great with Squarespace and Wix as well!</p></div>
+
+      <div class = "col"><i class="fas fa-desktop fa-6x head-image"></i><h3>Content Management</h3><p>Put me in charge of managing your content. You won't be disappointed!</p></div>
+
     </div>
+      
+
+
   </div> 
 </div>
 
 
-    <div class = "container-fluid port" id = "portfolio" >
-      <div class = "expertise"  >
+    <div class = "container-fluid port " id = "portfolio" >
+      <div class = "expertise "  >
       <h2 >My Work </h2>
       <p>Check out a few of my projects</p>
       </div> 
@@ -100,13 +184,12 @@
 
 <div class = "container-fluid" id = "contact">
       <div class = "expertise">
-      <h2>Let's Work Together</h2>
-      <p>Get in Touch</p>
+      <h2>Get in Touch</h2>
       </div> 
 </div> 
 
 <div class = "container-fluid contact-form" id ="contact">
-<form action="/send" method="post">
+<!--<form action="/send" method="post">
   <div class="form-row">
     <div class="form-group col-sm-6">
       <input type="firsttName" class="form-control" id="inputFirst" placeholder="First Name">
@@ -130,8 +213,11 @@
   <button type="button" class="btn btn-outline-primary">Submit</button>
   </div>
 </div>
+-->
 
-</form>
+<div class="typeform-widget" data-url="https://danielpreys.typeform.com/to/P3d9QD" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>  </div>
+
+</div>
 
 
 
@@ -139,10 +225,10 @@
   <div class = "container-fluid footer-list">
   <p>Site made by Daniel Preys &copy; 2018</p>
     <ul class="sm-links">
-      <li class = "social-img github-thmb"><i class="fab fa-github-square fa-lg" ></i></li>
-      <li class = "social-img codepen-thmb"><i class="fab fa-codepen fa-lg" ></i></li>  
-      <li class = "social-img linked-thmb"><i class="fab fa-linkedin fa-lg" ></i></li> 
-      <li class = "social-img insta-thmb"><i class="fab fa-instagram fa-lg" ></i></li> 
+      <li class = "social-img github-thmb li-soc"><i class="fab fa-github-square fa-lg" ></i></li>
+      <li class = "social-img codepen-thmb li-soc"><i class="fab fa-codepen fa-lg" ></i></li>  
+      <li class = "social-img linked-thmb li-soc"><i class="fab fa-linkedin fa-lg" ></i></li> 
+      <li class = "social-img insta-thmb li-soc"><i class="fab fa-instagram fa-lg" ></i></li> 
     </ul>
   </div>  
 </footer>  
