@@ -50,6 +50,14 @@ body, html {
 
 }
 
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
 .port {
 	background: linear-gradient(#e6f7ff, #e6f7ff, #4dc6ff);
 }
