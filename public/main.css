@@ -39,6 +39,14 @@ body, html {
 	padding-top: 50px;
 }
 
+.employer {
+	font-weight: bold; 
+}
+
+.title {
+	font-style: italic;
+}
+
 .intro-text {
 	text-align: center;
 }
@@ -63,7 +71,7 @@ h3 {
 }
 
 .expertise {
-	padding-top: 20px;
+	padding-top: 50px;
 	text-align: center;
 
 }	
